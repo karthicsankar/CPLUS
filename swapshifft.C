@@ -9,14 +9,12 @@ int main()
    length=strlen(input);
    for( int i=0;i<length;i=i+2)
    {
-      output[i]=input[i];
-      printf("%c",output[i]);
+     printf("%c",input[i]);
    }
    printf(" ");
    for(int i=1;i<length;i=i+2)
    {
-      output[i]=input[i];
-      printf("%c",output[i]);
+      printf("%c",input[i]);
    }
  return 0;
 }
