@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main(void) {
-	char a[10];
-	int i;
-	scanf("%s",a);
-	for(i=0;a[i]!='\0';i++)
+	char arr[10];
+	int num;
+	scanf("%s",arr);
+	for(num=0;arr[num]!='\0';num++)
 	{
-		if(a[i]>='0' && a[i]<='9')
+		if(arr[num]>='0' && arr[num]<='9')
 		{
-			printf("%c",a[i]);
+			printf("%c",arr[num]);
 		}
 	}
 	return 0;
