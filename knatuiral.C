@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-int number,a;
+int numb,a;
 printf("Enter a Number : ");
-scanf("%d",&number);             //getting the number
-a=(number*(number+1))/2;          //arithmatic progression
+scanf("%d",&numb);             //getting the number
+a=(numb*(numb+1))/2;          //arithmatic progression
 printf("%d",a);
 }
